@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sistema de Avaliação</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="images/logo0.5.png" type="image/x-icon">
+</head>
+<body id="avaliacao">
+  <div class="conteudo">
+    <header class="cabecalho">
+        <div class="header-hr">
+            <hr>
+            <img src="images/logo0.5.png" alt="Logo da SemHora">
+            <hr>
+        </div>
+    </header>
+
+    <div class="aviso">
+      <img src="images/aviso.png" alt="Atenção" class="icone-aviso" />
+      <p class="texto-aviso">A avaliação é importante para os próximos atendimentos dessa pessoa, por isso, seja o mais realista possível para ajudar a comunidade.</p>
+    </div>
+
+    <section class="avaliacao">
+      <p class="texto-avaliar">Avalie NOME</p>
+
+      <form class="caixa-avaliacao">
+        <div class="linha-nota">
+          <label for="nota">Nota:</label>
+          <input id="nota" type="number" class="entrada-nota" max="5"  min="0" required/>
+        </div>
+
+        <div class="campo-descricao">
+          <label for="descricao">Descreva a nota:</label>
+          <textarea id="descricao" class="entrada-descricao"></textarea>
+        </div>
+
+        <div class="botao-area">
+          <button class="botao-enviar" onclick="window.location.reload()">Enviar</button>
+        </div>
+      </form>
+    </section>
+  </div>
+</html>
