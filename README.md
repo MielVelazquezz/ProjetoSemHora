@@ -1,4 +1,6 @@
-# SemHora
+<div align="center"> 
+  <h1>SemHora</h1> 
+</div>
 
 ## Introdução
 O envelhecimento da população é uma realidade crescente no Brasil e no mundo. Muitos idosos enfrentam desafios relacionados à solidão, à exclusão digital e à dificuldade em realizar tarefas cotidianas. A tecnologia pode ser uma aliada poderosa para conectar pessoas, promover bem-estar e criar redes de apoio social.
