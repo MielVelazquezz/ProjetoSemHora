@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> SemHora | Idoso</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/logo0.5.png">
+    <script src="funcoes/idosos.js"></script>
+</head>
+
+<body id="SearchOldPeople" style="overflow-x: hidden;" onload="CarregaIdosos()">
+
+    <header class="cabecalho">
+        <div class="backpage">
+            <a onclick="history.back()"><img src="images/botao-voltar.png" alt="Voltar"
+                    title="Voltar a pagina anterior"></a>
+        </div>
+        <div class="header-hr">
+            <hr>
+            <img src="images/logo1.png" alt="Logo da SemHora">
+            <hr>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="container">
+
+            <div class="divTitulo">
+                <p> Busque por Idosos</p>
+            </div>
+
+            <div class="divBusca">
+                <input type="text" placeholder="      Busca por nome, tipo de serviço ou disponibilidade"
+                    class="inputBusca"
+                    style="background-image: url('images/Vector.jpg'); background-repeat: no-repeat; background-position: 97% center;">
+            </div>
+
+            <div id="divCard">
+
+                <!-- aqui ta aquele codigo html na funcao listarIdosos() do main.py -->
+
+            </div>
+
+
+        </div>
+    </main>
+
+    <footer></footer>
+
+</body>
+
+</html>
